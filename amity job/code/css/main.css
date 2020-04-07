@@ -1,0 +1,207 @@
+body{
+	background-color: rgba(220,221,214,1.00);
+	
+	
+}
+.topleftbtn{
+	/*color: #0700a5;*/
+	text-align:right;
+	margin-top:35px; 
+	margin-right:40px;
+}
+.primary-btn {
+	/*background: #f7631b;*/
+	background: #0700a5;
+	/*line-height: 42px;*/
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: none;
+   /* border-radius: 25px;*/
+    border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	font-weight: 700;
+	font-size: 95%;
+	position: relative;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	position: relative
+}
+.primary-btn-2 {
+	/*background: #f7631b;*/
+	background: #0700a5;
+	/*line-height: 42px;*/
+	width: 150px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: none;
+   /* border-radius: 25px;*/
+    border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 80%;
+	position: relative;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	position: relative
+}
+.primary-btn-lowpad {
+	/*background: #f7631b;*/
+	background: #0700a5;
+	/*line-height: 42px;*/
+	width: 150px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	/*padding-left: 3px;
+	padding-right: 3px;*/
+	border: none;
+   /* border-radius: 25px;*/
+    border-radius: 10px;
+	color: #fff;
+	display: inline-block;
+	font-weight: 700;
+	font-size: 95%;
+	position: relative;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	position: relative
+}
+.primary-btn-3 {
+	/*background: #f7631b;*/
+	background:rgba(255,255,255,0.00);
+	border-color: #0700a5;
+	/*line-height: 42px;*/
+	color:#5d5d5d !important;
+	width: 150px;
+	margin-left: 15px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #0700a5;
+   /* border-radius: 25px;*/
+    border-radius: 25px;
+	color: #fff;
+	display: inline-block;
+	font-weight: 700;
+	font-size: 100%;
+	/*position: relative;*/
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	position: relative
+}
+.centersearch{
+	text-align:center;
+	font-weight: 700;
+	font-size: 125%;
+	/*vertical-align: middle;*/
+	margin-top: 150px;
+}
+.centersearch h1{
+	text-align:center;
+	font-weight: 700 !important;
+	/*font-size: 3rem !important;*/
+}
+
+.centersearch input[type=text] {
+  border: none;
+  background-color: none;
+  color:  #0700a5;
+  outline: 0;
+  font-weight: 700;
+  font-size: 115%;
+  width: 250px;
+  /*height: 30px;*/
+}
+
+.centersearch input[type=text]:focus {
+  border: none;
+  background-color: none;
+  outline: 0;
+  /*width: 300px;
+  height: 30px;*/
+}
+.devjobs {
+	margin-left: 100px;
+	margin-top: 90px;
+	color:#5d5d5d;
+}
+
+.devhead {
+	font-weight: 700;
+
+}
+
+.devcards img{
+	border-radius: 15px;
+	float: left;
+	margin-right: 50px;
+}
+
+.devtitle {
+	color: #0700a5; 
+	font-weight:700; 
+	font-size:150%;
+}
+
+.devdescr {
+	max-width:700px;
+}
+
+.devrating {
+	margin-left:-90px; 
+	margin-top:0.6rem;
+	/*color: #0700B8 !important;*/
+	color: rgb(11, 0, 153) !important;
+	background-color: rgb(255, 223, 0) !important;
+}
+.notonimgdevrating {
+	margin-left: 2px; 
+	margin-top:0.6rem;
+	/*color: #0700B8 !important;*/
+	color: rgb(11, 0, 153) !important;
+	background-color: rgb(255, 223, 0) !important;
+}
+
+.devfurther {
+	margin-left:375px;
+}
+.connect {
+	margin-left:65%;
+}
+
+.horizontalline {
+	margin-top: 50px;
+	width: 90%;
+	text-align: center;
+	border-bottom: 3px solid #0700a5;
+	justify-content: center;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.imagegrid {
+	
+}
+.imagegrid img{
+	border-radius: 10px;
+	/*background-color: #0700a5;*/
+	border-style: none !important;
+}

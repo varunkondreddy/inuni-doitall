@@ -1,0 +1,207 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar  ftco-navbar-light fixed-top sleep awake" id="ftco-navbar">
+  <div class="container">
+    <div class="container">
+      <div class="row">
+        <div class="col-4 col-md-1">
+          <a class="navbar-brand" style="color: white;" href="index.html">Doitall</a>
+
+        </div>
+        <div class="col-6 col-md-2">
+          <a class="navbar-brand" style="color: white;">Work anywhere anytime</a>
+
+        </div>
+
+      </div>
+    </div>
+    
+    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+
+    <div class="collapse navbar-collapse" id="ftco-nav">
+      <ul class="navbar-nav ml-auto">
+      </ul>
+    </div>
+    <button style="display: block; margin: auto;" type="button" class="text-white primary-btn-lowpad1 devfurther rew"> <a href="#login1">I want to work</a></button>
+  </div>
+
+</nav>
+
+<div class="container">
+<div class="centersearch">
+  <form #form="ngForm" (ngSubmit)="response(form)">
+    <h1 class="text-black text-uppercase">I Need a <input type="text" name="jobneed" id="myInput" ngModel class="text-center"
+        placeholder="TITLE ..." /></h1>
+    <input type="submit" value="Submit" style="display: none;">
+    <!-- <button type="submit" class="btn btn-primary" onclick="jobs()">Search</button> -->
+  </form>
+  <div class="mt-4" style="text-align:center;">
+    <button type="button" class="text-white text-uppercase primary-btn-2">Java</button>
+    <button type="button" class="text-white text-uppercase primary-btn-2 ml-5 mr-5">Python</button>
+    <button type="button" class="text-white text-uppercase primary-btn-2">Front End</button>
+  </div>
+  <p class="mt-5 text-uppercase" style="color:#5d5d5d;">Other</p>
+</div>
+</div>
+ <!-- login -->
+ <div class="container">
+ <div id="login1" class="modalDialog1">
+  <div style="">
+    <a href="#close" title="Close" class="close">X</a>
+    <div class="login-form">
+      <form action="#" method="post">
+          <h2 class="text-center">Sign in</h2>    
+          <div class="text-center social-btn">
+              <a  routerLink="login" class="btn btn-primary btn-block"><i class="fa fa-facebook"></i> Sign in with <b>Facebook</b></a>
+            
+        <a href="#" class="btn btn-danger btn-block"><i class="fa fa-google"></i> Sign in with <b>Google</b></a>
+          </div>
+      <div class="or-seperator"><i>or</i></div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-phone"></i></span>
+              </div>
+              <input type="tel" class="form-control" name="username" placeholder="Phone Number" required="required">
+          </div>
+       
+          <div class="form-group">
+              <button type="submit" class="btn btn-success btn-block login-btn">Continue</button>
+          </div>
+          <div class="clearfix">
+              <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
+              <a href="#" class="pull-right text-success">Forgot Password?</a>
+          </div>  
+          
+      </form>
+      <div class="hint-text small">Don't have an account? <a href="#" class="text-success">Register Now!</a></div>
+  </div>
+
+  </div>
+</div>
+</div>
+<!-- login -->
+<!-- pop up profile -->
+<div class="container">
+<div id="openModal-about" class="modalDialog">
+  <div style="">
+    <a href="#close" title="Close" class="close">X</a>
+    <div class="devjobs">
+
+
+      <div class="container">
+        <div class="devcards" >
+          <div class="mt-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-md-6 tree">
+            <img
+              src="https://images.pexels.com/users/avatars/186148/eduardo-rosas-171.jpeg?w=256&h=256&fit=crop&crop=faces&auto=compress"
+              alt="Avatar" width="150" height="150" />
+                </div>
+                <div class="col-12 col-md-6">
+            <div class="devtitle" style="">{{username}}, {{userqualification}}, {{userlocation}} </div>
+      
+            <div class="mt-1 devdescr " style="">Hi, I hold a professional web development career spanning 8+ years. Will able
+              to help employers in fulfilling their requirements within deadline. </div>
+              <!-- <span class="badge badge-warning p-2 devrating" style="">5 <i class="fas fa-star"></i></span> -->
+              <div class="container mt-3">
+              <div class="row">
+                <div class="col-6">
+              <button type="button" class="text-white primary-btn-lowpad devfurther center"> <a href="#">connect</a></button>
+                  </div>
+                  </div>
+                  </div>
+      
+            </div>
+            </div>
+          
+      
+      </div>
+      
+      </div>
+      </div>
+      
+      <!-- container end -->
+      
+      </div> 
+
+
+    </div>
+
+    <div class="horizontalline"></div>
+    <div class="" style="margin-left:100px; margin-top:30px; color:#25a99f; font-weight:600">
+      <h4 style="font-weight:600;">ABOUT</h4>
+      <p>Hi, I hold a professional web development career spanning 8+ years. Will able to help employers in
+        fulfilling their requirements within deadline</p>
+      <h4 style="font-weight:600;">PORTFOLIO</h4>
+    </div>
+
+  </div>
+</div> 
+</div>
+<!-- pop up profile end -->
+
+<div class="devjobs" id="dev">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <h2 class="devhead text-center" style="">Java Developer Jobs</h2>
+      </div>
+      <div class="col-12 col-md-6 text-center">
+        <p>Sort by <button type="button" class="primary-btn-3">Rating</button></p>
+      </div>
+
+    </div>
+  </div>
+  
+ 
+<div class="container">
+  <div class="devcards" *ngFor="let i of posts">
+    <div class="mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 tree">
+      <img
+        src="https://images.pexels.com/users/avatars/186148/eduardo-rosas-171.jpeg?w=256&h=256&fit=crop&crop=faces&auto=compress"
+        alt="Avatar" width="150" height="150" />
+          </div>
+          <div class="col-12 col-md-6">
+      <div class="devtitle" style="">{{i.name}}, {{i.educational_qualification}}, {{i.location}} </div>
+
+      <div class="mt-1 devdescr " style="">Hi, I hold a professional web development career spanning 8+ years. Will able
+        to help employers in fulfilling their requirements within deadline. </div>
+        <!-- <span class="badge badge-warning p-2 devrating" style="">5 <i class="fas fa-star"></i></span> -->
+        <div class="container mt-3">
+        <div class="row">
+          <div class="col-6">
+        <button type="button" class="text-white primary-btn-lowpad devfurther center"
+          (click)="pass1(i.name,i.educational_qualification,i.location)"> <a href="#openModal-about">View
+            Profile</a></button>
+            </div>
+            </div>
+            </div>
+
+      </div>
+      </div>
+    
+
+</div>
+
+</div>
+</div>
+
+<!-- container end -->
+
+</div> 
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/popper.min.js"
+  integrity="sha256-O17BxFKtTt1tzzlkcYwgONw4K59H+r1iI8mSQXvSf5k=" crossorigin="anonymous"></script>
